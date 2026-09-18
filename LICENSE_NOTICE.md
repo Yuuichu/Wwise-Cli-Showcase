@@ -2,7 +2,7 @@
 
 ## wwise-mcp (this toolkit)
 
-Released under the **MIT licence**. The full licence text is included in this showcase as `LICENSE` and is unchanged from the private repository.
+Released under the **MIT licence** (`Copyright (c) 2026 Yuuichu`). The full licence text is included in this showcase as `LICENSE`, and the same file lives in the private development repository.
 
 ## Audiokinetic Wwise
 
