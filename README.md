@@ -2,7 +2,6 @@
 
 One kernel, two interfaces: a **CLI for audio designers** doing bulk work in Wwise, and an **MCP server for AI agents** driving the same operations.
 
-<!-- Hero image: see screenshots/README.md -->
 
 ## Why I Built This
 
@@ -45,7 +44,7 @@ WAAPI (Wwise Authoring API)
 
 ## Demo
 
-`demo/cli-transcript.md` walks through the command surface. Screenshots are pending — see `screenshots/README.md`.
+`demo/cli-transcript.md` walks through the command surface.
 
 Selected source is in `selected-code/` (connection layer, CLI wiring, an RTPC tool module and a SoundBank tool module).
 

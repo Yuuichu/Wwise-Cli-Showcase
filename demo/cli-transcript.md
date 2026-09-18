@@ -47,7 +47,3 @@ wwise project undo-end
 ```
 
 If the batch is wrong, the whole run is a single undo step inside Wwise.
-
-## To be added once captured
-
-A real transcript plus a terminal screenshot should replace this walkthrough. See `screenshots/README.md` for exactly what to capture.
