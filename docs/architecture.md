@@ -1,5 +1,7 @@
 # Architecture
 
+> **English** | [简体中文](architecture.zh-CN.md)
+
 The design goal is a **single WAAPI surface with two consumers**, so that an operation behaves identically whether a human runs it in a terminal or an AI agent calls it as a tool.
 
 ## Layers

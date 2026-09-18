@@ -1,5 +1,7 @@
 # wwise-mcp — Wwise Authoring API toolkit (CLI + MCP server)
 
+> **English** | [简体中文](README.zh-CN.md)
+
 One kernel, two interfaces: a **CLI for audio designers** doing bulk work in Wwise, and an **MCP server for AI agents** driving the same operations.
 
 ## Why I Built This
