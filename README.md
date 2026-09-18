@@ -2,7 +2,6 @@
 
 One kernel, two interfaces: a **CLI for audio designers** doing bulk work in Wwise, and an **MCP server for AI agents** driving the same operations.
 
-
 ## Why I Built This
 
 Wwise's authoring application is built for one-at-a-time, hands-on work. That is the right design for sound design, and the wrong one for repetitive project work: creating parameters in bulk, wiring attenuation curves, configuring and generating SoundBanks, or sampling the profiler to answer "which voices are actually playing". Those are scriptable operations that were being done by hand.
@@ -42,12 +41,6 @@ WAAPI (Wwise Authoring API)
 - **Explicit transport lifecycle.** Transport commands are created, resumed and explicitly destroyed, so playback objects do not leak between operations.
 - **Server cleanup on shutdown**, so a dropped MCP session does not leave a half-open WAAPI connection behind.
 
-## Demo
-
-`demo/cli-transcript.md` walks through the command surface.
-
-Selected source is in `selected-code/` (connection layer, CLI wiring, an RTPC tool module and a SoundBank tool module).
-
 ## Architecture
 
 `docs/architecture.md` covers the connection layer, the tool-module contract, the CLI/MCP dual surface, and why both exist.
@@ -68,7 +61,7 @@ Sole author: WAAPI wrapper design, tool surface, CLI, MCP server, tests and docu
 
 This is a portfolio showcase repository. The full development repository remains private.
 
-Included: the connection layer, CLI wiring and two representative tool modules, plus the complete verified tool catalog. Excluded: the remaining tool modules (they are procedural variations of the same pattern), project fixtures, and any project-specific configuration.
+Included in `selected-code/`: the connection layer, CLI wiring, an RTPC tool module and a SoundBank tool module. Also included: the complete verified tool catalog (`docs/tool-catalog.md`). Excluded: the remaining tool modules (they are procedural variations of the same pattern), project fixtures, and any project-specific configuration.
 
 ## Tech Stack
 
